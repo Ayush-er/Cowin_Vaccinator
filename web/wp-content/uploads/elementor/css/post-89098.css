@@ -1,0 +1,191 @@
+.elementor-kit-8 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-482c44d8: #4054B2;
+    --e-global-color-1bbdd6e0: #23A455;
+    --e-global-color-6dfaab0: #000;
+    --e-global-color-76468a99: #FFF;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-kit-8 a {
+    color: #000000;
+}
+
+.elementor-kit-8 a:hover {
+    color: #FF580E;
+}
+
+.elementor-kit-8 h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.elementor-kit-8 h2 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.elementor-kit-8 h3 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.elementor-kit-8 h4 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.elementor-kit-8 h5 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.elementor-kit-8 h6 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.elementor-kit-8 button,
+.elementor-kit-8 input[type="button"],
+.elementor-kit-8 input[type="submit"],
+.elementor-kit-8 .elementor-button {
+    font-family: "Barlow", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    background-color: #FF580E;
+    border-radius: 30px 30px 30px 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.elementor-kit-8 button:hover,
+.elementor-kit-8 button:focus,
+.elementor-kit-8 input[type="button"]:hover,
+.elementor-kit-8 input[type="button"]:focus,
+.elementor-kit-8 input[type="submit"]:hover,
+.elementor-kit-8 input[type="submit"]:focus,
+.elementor-kit-8 .elementor-button:hover,
+.elementor-kit-8 .elementor-button:focus {
+    color: #FFFFFF;
+    background-color: #FFBB39;
+    border-radius: 30px 5px 30px 30px;
+}
+
+.elementor-kit-8 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-8 textarea,
+.elementor-kit-8 .elementor-field-textual {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #DEDEDE;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.elementor-kit-8 input:focus:not([type="button"]):not([type="submit"]),
+.elementor-kit-8 textarea:focus,
+.elementor-kit-8 .elementor-field-textual:focus {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1170px;}
+}
+
+{
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-8 {
+        font-size: 14px;
+    }
+    .elementor-kit-8 h1 {
+        font-size: 40px;
+    }
+    .elementor-kit-8 h2 {
+        font-size: 32px;
+    }
+    .elementor-kit-8 h3 {
+        font-size: 30px;
+    }
+    .elementor-kit-8 h4 {
+        font-size: 28px;
+    }
+    .elementor-kit-8 h5 {
+        font-size: 24px;
+    }
+    .elementor-kit-8 h6 {
+        font-size: 18px;
+    }
+    .elementor-kit-8 button,
+    .elementor-kit-8 input[type="button"],
+    .elementor-kit-8 input[type="submit"],
+    .elementor-kit-8 .elementor-button {
+        font-size: 14px;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1025px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-8 h1 {
+        font-size: 32px;
+    }
+    .elementor-kit-8 h2 {
+        font-size: 30px;
+    }
+    .elementor-kit-8 h3 {
+        font-size: 28px;
+    }
+    .elementor-kit-8 h4 {
+        font-size: 24px;
+    }
+    .elementor-kit-8 h5 {
+        font-size: 18px;
+    }
+    .elementor-kit-8 h6 {
+        font-size: 16px;
+    }
+    .elementor-kit-8 button,
+    .elementor-kit-8 input[type="button"],
+    .elementor-kit-8 input[type="submit"],
+    .elementor-kit-8 .elementor-button {
+        padding: 16px 25px 14px 25px;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 768px;
+    }
+}

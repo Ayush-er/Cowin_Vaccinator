@@ -1,0 +1,378 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("<!-- /*\n");
+      out.write("    (___)\n");
+      out.write("    (o o)_____/\n");
+      out.write("     @@ `     \\  \n");
+      out.write("      \\ ____, /\n");
+      out.write("      //    //  \n");
+      out.write("     ^^    ^^ */ -->\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<head>\n");
+      out.write("<meta Ycharset=\"utf-8\">\n");
+      out.write("<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
+      out.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n");
+      out.write("\n");
+      out.write("<title>Login page</title>\n");
+      out.write("\n");
+      out.write("<style>\n");
+      out.write("    \n");
+      out.write("    .a:hover{\n");
+      out.write("    text-decoration: underline;\n");
+      out.write("    color:orange;\n");
+      out.write("}\n");
+      out.write("    \n");
+      out.write("</style>\n");
+      out.write("\n");
+      out.write("<!-- Login -->\n");
+      out.write("<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css\">\n");
+      out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js\"></script>\n");
+      out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n");
+      out.write("\n");
+      out.write("<link rel=\"stylesheet\" href=\"userstyle.css\">\n");
+      out.write("\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<body>\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("    ");
+
+     String b = (String)request.getAttribute("message");
+      if(b!=null)
+      {
+          
+      out.write("\n");
+      out.write("      \n");
+      out.write("     <script>        \n");
+      out.write("{\n");
+      out.write("  alert(\"Invalid username or password\");\n");
+      out.write("}\n");
+      out.write("</script>\n");
+
+ }       
+
+      out.write("\n");
+      out.write(" <nav style=\"  width: 100%; height: auto; padding-top: 5px; padding-bottom: 5px; margin: auto;  background-color: rgb(7, 17, 63);\">\n");
+      out.write("        <span > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img style=\"margin: 5px; \"  width=\"30px\" src=\"images/coronavirus.png\" alt=\"logo\">  <span style=\" margin: 0px; height: 10px; color: rgb(255, 255, 255); position: relative; top: 2px;; \">WINNING &nbsp; AGAINST &nbsp; COVID - 19 <span></span>\n");
+      out.write("        <span style=\"float: right; color: rgb(255, 255, 255); padding-right: 150px; position: relative; top: 9px;\"> <a style=\"color: white; text-decoration: none;\" href=\"home/home.html\">&nbsp;HOME&nbsp; </a> | <a style=\"color: white; text-decoration: none;\" href=\"hospiLogin.jsp\"> &nbsp;HOSPITAL LOGIN&nbsp; </a> | <a style=\"color: white; text-decoration: none;\" href=\"adminLogin.jsp\">&nbsp;ADMIN LOGIN&nbsp; </a> | <a style=\"color: white; text-decoration: none;\" href=\"\">&nbsp;LOGOUT&nbsp; </a> </span>\n");
+      out.write("    </nav>\n");
+      out.write("    </span>\n");
+      out.write("    <span>\n");
+      out.write("        <nav style=\" width: 100%; height: auto; padding-top: 2px; padding-bottom: 2px; margin: auto;  background-color: rgb(255, 255, 255);\">\n");
+      out.write("            <span style=\"font-weight: bolder ; font-size: 30px; color: rgb(0, 0, 0); \" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src=\"images/coronavirus_logo-2-833x321.jpg\" width=\"10%\" alt=\"\">  <span></span  ></span>\n");
+      out.write("            \n");
+      out.write("        </nav>\n");
+      out.write("        </span>\n");
+      out.write("\n");
+      out.write("        <!-- main-footer -->\n");
+      out.write("        <footer class=\"main-footer\">\n");
+      out.write("            <div class=\"shape-layer\" style=\"background-image: url(images/shape-3.png); height: 120%;\"></div>\n");
+      out.write("            <div class=\"anim-icon\">\n");
+      out.write("                \n");
+      out.write("                <div class=\"icon icon-2 rotate-me\" style=\"background-image: url(images/anim-icon-3.png);\"></div>\n");
+      out.write("                <div class=\"icon icon-3 rotate-me\" style=\"background-image: url(images/anim-icon-6.png);\"></div>\n");
+      out.write("                <div class=\"icon icon-4 rotate-me\" style=\"background-image: url(images/anim-icon-6.png); width: 300px; height: 300px;\"></div>\n");
+      out.write("                <div class=\"icon icon-5 rotate-me\" style=\"background-image: url(images/anim-icon-4.png); \"></div>\n");
+      out.write("\n");
+      out.write("            </div>\n");
+      out.write("            <br><br><br>\n");
+      out.write("            <div class=\"container\">\n");
+      out.write("                <div class=\"col-md-6 col-md-offset-3 col-xs-12\">\n");
+      out.write("                    <!-- @ Start login box wrapper -->\n");
+      out.write("                    <div class=\"blmd-wrapp\">\n");
+      out.write("                        <div class=\"blmd-color-conatiner ripple-effect-All\"></div>\n");
+      out.write("                        <div class=\"blmd-header-wrapp \">\n");
+      out.write("                            <div class=\"blmd-switches\">\n");
+      out.write("                                 <button class=\"btn btn-circle btn-lg btn-blmd ripple-effect btn-success blmd-switch-button\">\n");
+      out.write("                                    <svg style=\"width:24px;height:24px\" viewBox=\"0 0 24 24\">\n");
+      out.write("                                        <path fill=\"#fff\" d=\"M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z\" />\n");
+      out.write("                                     </svg>\n");
+      out.write("                                  </button>\n");
+      out.write("                            </div> \n");
+      out.write("                            \n");
+      out.write("                        </div> \n");
+      out.write("                        <div class=\"blmd-continer\">\n");
+      out.write("                            <!-- @ Login form container -->\n");
+      out.write("\n");
+      out.write("\n");
+
+   String a = (String)request.getAttribute("message");
+     if(a!=null)
+     out.println("<FONT COLOR=RED>" + a + "</FONT>");   
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        <form action=\"LoginCheckerServlet\" class=\"clearfix\" id=\"login-form\" method=\"post\" >\n");
+      out.write("                            <h1>Login Page</h1>\n");
+      out.write("                            <div class=\"col-md-12\">\n");
+      out.write("                                \n");
+      out.write("                                <div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"text\" name=\"uname\" autocomplete=\"on\" id=\"username\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Email or Username</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                                <div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"password\" name=\"pass\" autocomplete=\"off\" id=\"password\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Password</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                            </div>\n");
+      out.write("                            <div class=\"col-sm-12 text-center\">\n");
+      out.write("                                <button type=\"submit\" class=\"btn btn-blmd ripple-effect btn-success btn-lg btn-block\">Login</button>\n");
+      out.write("                            </div>\n");
+      out.write("                            <br/>\n");
+      out.write("                        </form>\n");
+      out.write("                        <!-- @ Register form container -->\n");
+      out.write("                        <form action=\"UserRegisterCheckerServlet\" class=\"clearfix form-hidden\" id=\"Register-form\" method=\"post\">\n");
+      out.write("                            <h1>Register Page</h1>\n");
+      out.write("                            <div class=\"col-md-12\">\n");
+      out.write("                                \n");
+      out.write("                                <div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"text\" name=\"fullname\" autocomplete=\"off\" id=\"username\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Full Name</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t<div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"text\" name=\"rusername\" autocomplete=\"off\" id=\"username\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Email-ID</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("\t\t\t\t<div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"text\" name=\"aadhar\" autocomplete=\"off\" id=\"username\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Aadhar Card No.</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                                <div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"password\" name=\"rpassword\" autocomplete=\"off\" id=\"password\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Password</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                                 <div class=\"input-group blmd-form\">\n");
+      out.write("                                    <div class=\"blmd-line\">\n");
+      out.write("                                        <input type=\"password\" name=\"repassword\" autocomplete=\"off\" id=\"password\" class=\"form-control\" required>\n");
+      out.write("                                        <label class=\"blmd-label\">Confirm Password</label>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                            </div>\n");
+      out.write("                            <div class=\"col-sm-12 text-center\">\n");
+      out.write("                                <button type=\"submit\" class=\"btn btn-blmd ripple-effect btn-warning btn-lg btn-block\">Register</button>\n");
+      out.write("                            </div>\n");
+      out.write("                            <br/>\n");
+      out.write("                        </form>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("                    \n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    <script>\n");
+      out.write("    (function ($) {\n");
+      out.write("        \n");
+      out.write("        // Ripple-effect animation\n");
+      out.write("        $(\".ripple-effect\").click(function (e) {\n");
+      out.write("            var rippler = $(this);\n");
+      out.write("    \n");
+      out.write("              rippler.append(\"<span class='ink'></span>\");\n");
+      out.write("    \n");
+      out.write("            var ink = rippler.find(\".ink:last-child\");\n");
+      out.write("            // prevent quick double clicks\n");
+      out.write("            ink.removeClass(\"animate\");\n");
+      out.write("    \n");
+      out.write("            // set .ink diametr\n");
+      out.write("            if (!ink.height() && !ink.width()) {\n");
+      out.write("                var d = Math.max(rippler.outerWidth(), rippler.outerHeight());\n");
+      out.write("                ink.css({\n");
+      out.write("                    height: d,\n");
+      out.write("                    width: d\n");
+      out.write("                });\n");
+      out.write("            }\n");
+      out.write("    \n");
+      out.write("            // get click coordinates\n");
+      out.write("            var x = e.pageX - rippler.offset().left - ink.width() / 2;\n");
+      out.write("            var y = e.pageY - rippler.offset().top - ink.height() / 2;\n");
+      out.write("    \n");
+      out.write("            // set .ink position and add class .animate\n");
+      out.write("            ink.css({\n");
+      out.write("                top: y + 'px',\n");
+      out.write("                left: x + 'px'\n");
+      out.write("            }).addClass(\"animate\");\n");
+      out.write("            \n");
+      out.write("            // remove ink after 1second from parent container\n");
+      out.write("            setTimeout(function(){\n");
+      out.write("                ink.remove();\n");
+      out.write("            },1000)\n");
+      out.write("        })\n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    // Ripple-effect-All animation\n");
+      out.write("       function fullRipper(color,time){\n");
+      out.write("           setTimeout(function(){\n");
+      out.write("                var rippler = $(\".ripple-effect-All\");\n");
+      out.write("                if(rippler.find(\".ink-All\").length == 0){\n");
+      out.write("                    rippler.append(\"<span class='ink-All'></span>\");\n");
+      out.write("                    \n");
+      out.write("    \n");
+      out.write("                    var ink = rippler.find(\".ink-All\");\n");
+      out.write("                    // prevent quick double clicks\n");
+      out.write("                    //ink.removeClass(\"animate\");\n");
+      out.write("    \n");
+      out.write("                    // set .ink diametr\n");
+      out.write("                    if (!ink.height() && !ink.width()) {\n");
+      out.write("                        var d = Math.max(rippler.outerWidth(), rippler.outerHeight());\n");
+      out.write("                        ink.css({\n");
+      out.write("                            height: d,\n");
+      out.write("                            width: d\n");
+      out.write("                        });\n");
+      out.write("                    }\n");
+      out.write("    \n");
+      out.write("                    // get click coordinates\n");
+      out.write("                    var x =0;\n");
+      out.write("                    var y =rippler.offset().top - ink.height()/1.5;\n");
+      out.write("    \n");
+      out.write("                    // set .ink position and add class .animate\n");
+      out.write("                    ink.css({\n");
+      out.write("                        top: y + 'px',\n");
+      out.write("                        left: x + 'px',\n");
+      out.write("                        background:color\n");
+      out.write("                    }).addClass(\"animate\");\n");
+      out.write("    \n");
+      out.write("                    rippler.css('z-index',2);\n");
+      out.write("    \n");
+      out.write("                 -   setTimeout(function(){\n");
+      out.write("                        ink.css({\n");
+      out.write("                            '-webkit-transform': 'scale(2.5)',\n");
+      out.write("                            '-moz-transform': 'scale(2.5)',\n");
+      out.write("                            '-ms-transform': 'scale(2.5)',\n");
+      out.write("                            '-o-transform': 'scale(2.5)',\n");
+      out.write("                            'transform': 'scale(2.5)'\n");
+      out.write("                        })\n");
+      out.write("                        rippler.css('z-index',0);\n");
+      out.write("                    },1500);\n");
+      out.write("                }\n");
+      out.write("           },time)\n");
+      out.write("            \n");
+      out.write("        }\n");
+      out.write("    \n");
+      out.write("        // Form control border-bottom line\n");
+      out.write("        $('.blmd-line .form-control').bind('focus',function(){\n");
+      out.write("            $(this).parent('.blmd-line').addClass('blmd-toggled').removeClass(\"hf\");\n");
+      out.write("        }).bind('blur',function(){\n");
+      out.write("            var val=$(this).val();\n");
+      out.write("            if(val){\n");
+      out.write("                $(this).parent('.blmd-line').addClass(\"hf\");\n");
+      out.write("            }else{\n");
+      out.write("                $(this).parent('.blmd-line').removeClass('blmd-toggled');\n");
+      out.write("            }\n");
+      out.write("        })\n");
+      out.write("    \n");
+      out.write("        // Change forms\n");
+      out.write("        $(\".blmd-switch-button\").click(function(){\n");
+      out.write("            var _this=$(this);\n");
+      out.write("            if(_this.hasClass('active')){\n");
+      out.write("                setTimeout(function(){\n");
+      out.write("                    _this.removeClass('active');\n");
+      out.write("                    $(\".ripple-effect-All\").find(\".ink-All\").remove();\n");
+      out.write("                    $(\".ripple-effect-All\").css('z-index',0);\n");
+      out.write("                },1300);\n");
+      out.write("                $(\".ripple-effect-All\").find(\".ink-All\").css({\n");
+      out.write("                    '-webkit-transform': 'scale(0)',\n");
+      out.write("                    '-moz-transform': 'scale(0)',\n");
+      out.write("                    '-ms-transform': 'scale(0)',\n");
+      out.write("                    '-o-transform': 'scale(0)',\n");
+      out.write("                    'transform': 'scale(0)',\n");
+      out.write("                    'transition':'all 1.5s'\n");
+      out.write("                })\n");
+      out.write("                $(\".ripple-effect-All\").css('z-index',2);\n");
+      out.write("                $('#Register-form').addClass('form-hidden')\n");
+      out.write("                .removeClass('animate');\n");
+      out.write("                $('#login-form').removeClass('form-hidden');\n");
+      out.write("            }else{\n");
+      out.write("                fullRipper(\"#26a69a\",750);\n");
+      out.write("                _this.addClass('active');\n");
+      out.write("                setTimeout(function(){\n");
+      out.write("                    $('#Register-form').removeClass('form-hidden')\n");
+      out.write("                    .addClass('animate');\n");
+      out.write("                    $('#login-form').addClass('form-hidden');\n");
+      out.write("                },2000)\n");
+      out.write("                \n");
+      out.write("            }\n");
+      out.write("        })\n");
+      out.write("    })(jQuery);\n");
+      out.write("    </script>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        </footer>\n");
+      out.write("        </body>\n");
+      out.write("        </html>\n");
+      out.write("\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
